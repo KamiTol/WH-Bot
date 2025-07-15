@@ -88,7 +88,7 @@ module.exports = {
                 }
             }
 
-            usuariosAsignados.push(`<@${userId}> → +${cantidad} helps`);
+            usuariosAsignados.push(`<@${userId}> → +${cantidad} wars`);
         }
 
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
