@@ -46,14 +46,15 @@ CHANNEL_ID=canal_notificaciones_rango
 
 ## 🧠 Comandos Principales
 
-| Comando            | Descripción                                          |
-|--------------------|------------------------------------------------------|
-| `/help`            | Muestra la ayuda general del bot                     |
-| `/asignar`         | Asigna wars y helps a un solo usuario                |
-| `/asignar-multiple`| Asigna wars y helps a múltiples usuarios             |
-| `/stats`           | Muestra wars, helps y rango actual del usuario       |
-| `/top`             | Muestra el top 10 de wars y helps                    |
-| `/inicializartop`  | Inicializa el mensaje de ranking (requiere admin)   |
+| Comando           | Descripción                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| `/asignarhelp`    | Asigna una cantidad de helps a uno o varios usuarios          |
+| `/asignarwars`    | Asigna una cantidad de wars a uno o varios usuarios           |
+| `/stats`          | Muestra wars, helps y rango actual de un usuario              |
+| `/top`            | Muestra el top 10 de usuarios por wars y helps                |
+| `/inicializartop` | Inicializa o actualiza el mensaje de ranking (requiere admin) |
+| `/restar`         | Resta wars o helps a un usuario específico                    |
+| `/syncdb`         | Sincroniza los comandos del bot con Discord (una sola vez)    |
 
 ---
 
